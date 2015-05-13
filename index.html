@@ -2,9 +2,98 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<title>PlugSimple - Simple</title>
+	
+	<!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+	<link href="css/bootstrap.original.min.css" rel="stylesheet">
+	<link href="css/global.css" rel="stylesheet">
+
+	<!-- Custom Fonts -->
+	<link href="fonts/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-	plugSimple
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<ul class="nav nav-pills">
+				<li role="presentation" class="active"><a href="#">Home</a></li>
+				<li role="presentation"><a href="#versions">Versions</a></li>
+				<li role="presentation"><a href="#usage">Usage</a></li>
+			</ul>
+		</div>
+	</div>
+	<div id="versions" class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<div class="panel panel-success">
+				<div class="panel-heading">
+					<div class="panel-title"><a href="https://github.com/plugSimple/plugSimple/">Lastest Stable Release</a></div>
+					Release 1.03 Build #205
+				</div>
+				<div class="panel-body">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, qui perspiciatis voluptatibus sapiente incidunt soluta rem enim animi inventore non!</p>
+					<p>Vero, esse possimus non eius perferendis fuga totam officiis fugiat beatae quaerat. Iusto ducimus repellendus quidem magni itaque quae necessitatibus.</p>
+					<div class="well well-sm">Drag the button to your bookmarks bar then when on <a href="https://plug.dj/dashboard/" target="_blank">plug.dj</a> join a room then activate the bookmarklet by clicking it in your bookmarks bar. <a href="#" class="btn btn-success">PlugSimple</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="usage" class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<div class="panel-title">Usage</div>
+				</div>
+				<div class="panel-body">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, incidunt at tenetur animi asperiores veritatis voluptates quam sunt atque ducimus.</p>
+					<p>Asperiores iure quod saepe. Nesciunt, velit voluptates excepturi iste praesentium ipsum autem incidunt veniam sequi consectetur aut ab quaerat facere.</p>
+					<p>Ab, dolore totam praesentium tempora incidunt sunt sequi numquam nostrum natus officia. Quidem, magni enim vero repudiandae in molestiae vel?</p>
+					
+					<div class="well well-sm">
+						<div class="label label-warning label-lg label-inline">Runtime Update</div>
+						&nbsp;This actions requires an update to refresh all actions.  A simple method to reinitalize all of the methods and save settings.
+					</div>
+					<div class="well well-sm">
+						<div class="label label-danger label-lg label-inline">Plugin Reload</div>
+						&nbsp;To complete this action you must fully reload the page and reactivate the script after completing the command.
+					</div>
+				</div>
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th>Functionality</th>
+							<th>Console Input</th>
+							<th>Info</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>AutoWoot <div class="label label-warning">Runtime Update</div></td>
+							<td><code>plugSimple.settings.autodj = boolean</code></td>
+							<td>Will automatically <em>woot</em> the current DJ every DJ update</td>
+						</tr>
+						<tr>
+							<td>Auto DJ <div class="label label-warning">Runtime Update</div></td>
+							<td><code>plugSimple.settings.autodj = boolean</code></td>
+							<td>Will attempt to join the waitlist after each DJ update</td>
+						</tr>
+						<tr>
+							<td>Debug Mode</td>
+							<td><code>plugSimple.settings.debug = boolean</code></td>
+							<td>Will display all debug messages.</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+				<div class="col-md-4">&copy 2015 <a href="https://raw.githubusercontent.com/itotallyrock/PlugSimple/master/LICENSE" target="_blank">License</a></div>
+				<div class="col-md-4">Fork Follow Repo</div>
+				<div class="col-md-4">Credits to: <a href="http://getbootstrap.com" target="_blank">Bootstrap</a> <a href="https://pages.github.com/" target="_blank">Github</a></div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
